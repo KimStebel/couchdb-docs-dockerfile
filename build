@@ -3,4 +3,3 @@
 sudo rm -rf output
 mkdir output
 sudo docker build -t 'kimstebel/couchdb-docs' .
-sudo docker run --rm -v "$(pwd)/output:/output" 'kimstebel/couchdb-docs'

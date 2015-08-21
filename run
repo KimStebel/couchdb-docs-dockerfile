@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo docker run --rm -v "$(pwd)/couchdb:/couchdb" -v "$(pwd)/output:/output" 'kimstebel/couchdb-docs'
+
