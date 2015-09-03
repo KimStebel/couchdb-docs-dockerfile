@@ -9,7 +9,7 @@ which python pip; \
 pip install --upgrade pip; \
 pip install sphinx docutils pygments; " ]
 CMD [ "/bin/bash", "-c", "source env/bin/activate; \
-cd /couchdb/share/doc; \
+cd /couchdb/; \
 sphinx-build -a -E -n -b html \
 -D version='0' \
 -D release='0' \
